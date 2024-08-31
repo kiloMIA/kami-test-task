@@ -11,4 +11,4 @@ migrate-down:
 	docker compose run migrate down
 
 test-service:
-	cd internal/service && go test
+	cd internal/service && go test -v
